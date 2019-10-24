@@ -17,19 +17,19 @@ The Healthy Folder consists of Green and healthy images.
 
 ## PROPERTIES OF IMAGES
 
-Type of File                     :  JPG File.
+   Type of File                     :  JPG File.
 
-Dimensions                       :  256 * 256.
+   Dimensions                       :  256 * 256.
 
-Width                            :  256 Pixels.
+   Width                            :  256 Pixels.
 
-Height                           :  256 Pixels.
+   Height                           :  256 Pixels.
 
-Horizontal Resolution            :  96 dpi.
+   Horizontal Resolution            :  96 dpi.
 
-Vertical Resolution              :  96 dpi.
+   Vertical Resolution              :  96 dpi.
 
-Bit Depth                        :  24.
+   Bit Depth                        :  24.
 
 ## STEPS INVOLVED 
 Data Preprocessing 
@@ -51,11 +51,11 @@ In order to separate the picture of leaf from the background segmentation has to
 5) Applying Global Feature Descriptor.
 Global features are extracted from the image using three feature descriptors namely :
 
-•	Color     : Color Channel Statistics (Mean, Standard Deviation) and Color Histogram
+   •	Color     : Color Channel Statistics (Mean, Standard Deviation) and Color Histogram
 
-•	Shape    : Hu Moments, Zernike Moments
+   •	Shape    : Hu Moments, Zernike Moments
 
-•	Texture : Haralick Texture, Local Binary Patterns (LBP)
+   •	Texture : Haralick Texture, Local Binary Patterns (LBP)
  
 After extracting the feature of images the features are stacked together using numpy function  “np.stack”.
 
@@ -76,19 +76,19 @@ After features are extracted from the images they are saved in HDF5 file. The Hi
 8) Modeling 
 The Model is trained over 7 machine learning models named : 
 
-•	Logistic Regression 
+   •	Logistic Regression 
 
-•	Linear Discriminant  Analysis
+   •	Linear Discriminant  Analysis
 
-•	K Nearest  Neighbours
+   •	K Nearest  Neighbours
 
-•	Decision Trees
+   •	Decision Trees
 
-•	Random Forest
+   •	Random Forest
 
-•	Naïve Bayes
+   •	Naïve Bayes
 
-•	Support Vector Machine 
+   •	Support Vector Machine 
 
 And the model is validated using 10 k fold cross validation technique.
 
