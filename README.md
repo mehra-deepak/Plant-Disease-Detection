@@ -1,9 +1,13 @@
 # Plant disease detection
 
+Plant Disease Detection is one of the mind boggling issue that exits when we talk about using Technology in Agriculture.Although researches has been done to detect weather a plant is healthy or diseased using Deep Learning and with the help of Neural Network, new techniquies are still being discovered.
 
-The dataset used for this project has been taken from Plant-Village- Dataset which can be found here https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color.
+Here is my approach for Detecting weather a plant leaf is healthy or unhealthy by utilising classical Machine Learning Algorithm , Pre-processing the data using Image Processing.
+
 
 ## ABOUT THE DATASET
+
+The dataset used for this project has been taken from Plant-Village- Dataset which can be found here https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color.
 
 The data used for this project is extracted from the folder named “color” which is situated in the folder named “raw” in the Github Repository. The Data fed for the modeling is of Apple Leaves.
 For training purpose the Dataset comprises of 2 folders named Diseased and Healthy which contains images of leaves with respective labels.
