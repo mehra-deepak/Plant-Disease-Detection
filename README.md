@@ -50,8 +50,11 @@ In order to separate the picture of leaf from the background segmentation has to
 
 5) Applying Global Feature Descriptor.
 Global features are extracted from the image using three feature descriptors namely :
+
 •	Color     : Color Channel Statistics (Mean, Standard Deviation) and Color Histogram
+
 •	Shape    : Hu Moments, Zernike Moments
+
 •	Texture : Haralick Texture, Local Binary Patterns (LBP)
  
 After extracting the feature of images the features are stacked together using numpy function  “np.stack”.
@@ -72,13 +75,21 @@ After features are extracted from the images they are saved in HDF5 file. The Hi
 
 8) Modeling 
 The Model is trained over 7 machine learning models named : 
+
 •	Logistic Regression 
+
 •	Linear Discriminant  Analysis
+
 •	K Nearest  Neighbours
+
 •	Decision Trees
+
 •	Random Forest
+
 •	Naïve Bayes
+
 •	Support Vector Machine 
+
 And the model is validated using 10 k fold cross validation technique.
 
 9 ) Prediction 
