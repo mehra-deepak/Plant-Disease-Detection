@@ -7,7 +7,7 @@ The dataset used for this project has been taken from Plant-Village- Dataset whi
 
 The data used for this project is extracted from the folder named “color” which is situated in the folder named “raw” in the Github Repository. The Data fed for the modeling is of Apple Leaves.
 For training purpose the Dataset comprises of 2 folders named Diseased and Healthy which contains images of leaves with respective labels.
-The Diseased Folder contains a total of 1013 diseased/unhealthy, affected by Apple Scab, Black Rot or Cedar Apple Rust, (337 each).
+The Diseased Folder contains diseased/unhealthy, affected by Apple Scab, Black Rot or Cedar Apple Rust.
 The Healthy Folder consists of Green and healthy images.
 
 
